@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -30,6 +31,7 @@
     ],
     "rules": {
       "import/no-duplicates": "off",
+      "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/camelcase": "off",
       "react/jsx-props-no-spreading": "off",
       "react/prop-types": "off",
